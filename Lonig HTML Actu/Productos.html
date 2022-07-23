@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Carrito.css" />
+    <link rel="stylesheet" href="CSS/NavNFooter.css" />
+    <title>Productos</title>
+    
+</head>
+<body>
+    <!--Inicio de sesion, registro, logotipo e isotipo-->
+  <div class="InicioRegistro">
+    <a href="ini.html"><span class="glyphicon glyphicon-user"></span> Iniciar Sesion</a>
+    <a href="regi.html"><span class="glyphicon glyphicon-log-in"></span> Registrarse</a>
+   </div>
+   <div class="icono">
+    <a href="Index.html"><img id="nati" src="IMG/nati.png" title="nati"/></a>
+   <img id="isotipo" src="IMG/Isotipo.png" title="SeguridadCorporal"/>
+   </div>
+ <!--Navegacion-->
+   <nav>
+     <div class="page-nav">
+       <nav class="navbar navbar-inverse">
+         <div class="container-fluid">
+           <div class="navbar-header">
+           </div>
+         <ul class="nav navbar-nav">
+           
+       
+           <li class="active"><a href="Index.html">Inicio</a></li>
+           <li><a href="Productos.html">Productos</a></li>
+           <li><a href="Contacto.html">Contacto</a></li>
+           <li><a href="Carrito.html">Carrito</a></li>
+           
+             <div class="buscar">
+             <input type="text" class="form-control" placeholder="Search">
+             <button type="submit" class="btn btn-default">Buscar</button>
+             </div>
+           
+         </ul>
+         </div>
+     </div>
+   </nav>
+        
+    <section class="container">
+        <div class="products">
+            <div class="carts">
+                <div>
+                    <img src="IMG/A.jpg" alt="">
+                    <p><span>500</span>$</p>
+                </div>
+                <p class="title">Casco</p>
+               
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="IMG/B.jpg" alt="">
+                    <p><span>500</span>$</p>
+                </div>
+                <p class="title">Guantes</p>
+                
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="IMG/C.jpg" alt="">
+                    <p><span>500</span>$</p>
+                </div>
+                <p class="title">Lentes</p>
+               
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="IMG/D.jpg" alt="">
+                    <p><span>500</span>$</p>
+                </div>
+                <p class="title">Pantalon</p>
+              
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="IMG/E.jpg" alt="">
+                    <p><span>500</span>$</p>
+                </div>
+                <p class="title">Zapatos</p>
+               
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="IMG/F.jpg" alt="">
+                    <p><span>500</span>$</p>
+                </div>
+                <p class="title"> Chaleco</p>
+             
+            </div>
+    </section>
+
+    <footer>
+        <div class="footerp1">
+          <p>© 2022 - Todos los derechos reservados.</p>
+          <p>Desarrollado por Lonig System</p>
+        </div>
+        <div class="footerp2">
+          <p>Contacto:</p>
+          <p>Telefono: 5555 555</p>
+          <p>Correo: seguridadcorporal@gmail.com</p>
+        </div>
+    
+      </footer>
+
+    <script>
+        function showCart(x){
+            document.getElementById("products-id").style.display = "block";
+        }
+        function closeBtn(){
+             document.getElementById("products-id").style.display = "none";
+        }
+
+    </script>
+</body>
+</html>
