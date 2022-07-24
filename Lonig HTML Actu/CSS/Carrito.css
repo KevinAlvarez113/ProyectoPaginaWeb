@@ -18,10 +18,7 @@ body{
   }
   
   
-  #Lonig {
-    top: 20px;
-    background-color: #04AA6D;
-  }
+
   div.active {
     background-color: #333;
     overflow: auto;

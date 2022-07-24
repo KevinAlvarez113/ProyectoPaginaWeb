@@ -1,12 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 div.active {
   background-color: #333;
   overflow: auto;
   white-space: nowrap;
+  
 }
 
 div.active a {
@@ -20,20 +17,27 @@ div.active a {
 div.active a:hover {
   background-color: #777;
 }
-body {
-  background-image: url('fondo.jpg');
-}
+
 
 .form-register {
   width: 400px;
-  background: #24303c;
+  background: #252323;
   padding: 30px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 90px;
+  margin-bottom: 90px;
   border-radius: 4px;
   font-family: 'calibri';
   color: white;
   box-shadow: 7px 13px 37px #000;
+  box-sizing: border-box;
+  border-top: 4px solid rgb(144, 76, 175);
+}
+
+.form-register p , h4{
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid;
 }
 
 .form-register h4 {
@@ -42,15 +46,17 @@ body {
 }
 
 .controls {
-  width: 100%;
-  background: #24303c;
+  width: 94%;
+  background: #252323;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 1px solid #1f53c5;
+  border: 1px solid #f5a4c7;
   font-family: 'calibri';
   font-size: 18px;
   color: white;
+  font-weight: bold;
+
 }
 
 .form-register p {
@@ -72,10 +78,21 @@ body {
 
 .form-register .botons {
   width: 100%;
-  background: #1f53c5;
+  background: rgb(144, 76, 175);
   border: none;
   padding: 12px;
   color: white;
-  margin: 16px 0;
+  margin: 6px 0;
   font-size: 16px;
+}
+.Fondo{
+  background-color: rgb(190, 190, 190);
+  background-image: url("/IMG/IMGMasProd.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity:20%;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  z-index: -1;
 }

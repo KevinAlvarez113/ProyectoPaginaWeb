@@ -12,15 +12,45 @@
     
 </head>
 <body>
-    <ul class="nav navbar-nav">
-    </form>
-  <div class="active"><a href="Index.html">Inicio</a></div>
-</ul>
+   <!--Inicio de sesion, registro, logotipo e isotipo-->
+<div class="InicioRegistro">
+    <a href="ini.html"><span class="glyphicon glyphicon-user"></span> Iniciar Sesion</a>
+    <a href="regi.html"><span class="glyphicon glyphicon-log-in"></span> Registrarse</a>
+   </div>
+   <div class="icono">
+    <a href="Index.html"><img id="nati" src="IMG/nati.png" title="nati"/></a>
+   <img id="isotipo" src="IMG/Isotipo.png" title="SeguridadCorporal"/>
+   </div>
+ <!--Navegacion-->
+   <nav>
+     <div class="page-nav">
+       <nav class="navbar navbar-inverse">
+         <div class="container-fluid">
+           <div class="navbar-header">
+           </div>
+         <ul class="nav navbar-nav">
+           
+       
+           <li class="active"><a href="Index.html">Inicio</a></li>
+           <li><a href="Productos.html">Productos</a></li>
+           <li><a href="Contacto.html">Contacto</a></li>
+           <li><a href="Carrito.html">Carrito</a></li>
+           
+             <div class="buscar">
+             <input type="text" class="form-control" placeholder="Search">
+             <button type="submit" class="button-buscar">Buscar</button>
+             </div>
+           
+         </ul>
+         </div>
+     </div>
+   </nav>
+
     <header>
         <div class="header-section container">
-            <img class="logo" src="nati.png" alt="">
+            
             <div>
-                <img onmouseover="showCart(this)" class="cart" src="Carrito.png" alt="">
+                <img onmouseover="showCart(this)" class="cart" src="IMG/Carrito.png" alt="">
                 <p class="count-product">0</p>
             </div>
             <div class="cart-products" id="products-id">
@@ -36,7 +66,7 @@
         <div class="products">
             <div class="carts">
                 <div>
-                    <img src="A.jpg" alt="">
+                    <img src="IMG/A.jpg" alt="">
                     <p><span>500</span>$</p>
                 </div>
                 <p class="title">Casco</p>
@@ -44,7 +74,7 @@
             </div>
             <div class="carts">
                 <div>
-                    <img src="B.jpg" alt="">
+                    <img src="IMG/B.jpg" alt="">
                     <p><span>500</span>$</p>
                 </div>
                 <p class="title">Guantes</p>
@@ -52,7 +82,7 @@
             </div>
             <div class="carts">
                 <div>
-                    <img src="C.jpg" alt="">
+                    <img src="IMG/C.jpg" alt="">
                     <p><span>500</span>$</p>
                 </div>
                 <p class="title">Lentes</p>
@@ -60,7 +90,7 @@
             </div>
             <div class="carts">
                 <div>
-                    <img src="D.jpg" alt="">
+                    <img src="IMG/D.jpg" alt="">
                     <p><span>500</span>$</p>
                 </div>
                 <p class="title">Pantalon</p>
@@ -68,7 +98,7 @@
             </div>
             <div class="carts">
                 <div>
-                    <img src="E.jpg" alt="">
+                    <img src="IMG/E.jpg" alt="">
                     <p><span>500</span>$</p>
                 </div>
                 <p class="title">Zapatos</p>
@@ -76,7 +106,7 @@
             </div>
             <div class="carts">
                 <div>
-                    <img src="F.jpg" alt="">
+                    <img src="IMG/F.jpg" alt="">
                     <p><span>500</span>$</p>
                 </div>
                 <p class="title"> Chaleco</p>
@@ -106,6 +136,6 @@
         }
 
     </script>
-     <script src="Carrito.js"></script>
+     <script src="JS/Carrito.js"></script>
 </body>
 </html>

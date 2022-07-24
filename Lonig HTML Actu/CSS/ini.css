@@ -23,12 +23,15 @@ body {
 .form-login {
   width: 400px;
   height: 340px;
-  background: #4e4d4d;
+  background: #252323;
   margin: auto;
   margin-top: 180px;
   margin-bottom: 180px;
+  border-radius: 4px;
   box-shadow: 7px 13px 37px #000;
+  box-sizing: border-box;
   padding: 20px 30px;
+  font-family: 'calibri';
   border-top: 4px solid rgb(144, 76, 175);
   color: white;
 }
@@ -46,6 +49,7 @@ body {
   width: 95%;
   border: 1px solid #f5a4c7;
   margin-bottom: 15px;
+  border-radius: 4px;
   padding: 10px 10px;
   background: #252323;
   font-size: 14px;
@@ -60,18 +64,20 @@ body {
   border: none;
   color: white;
   margin-bottom: 16px;
+  font-size: 18px;
 }
 
 .form-login p{
   height: 40px;
   text-align: center;
   border-bottom: 1px solid;
+  font-size: 18px;
 }
 
 .form-login a {
   color: white;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .form-login a:hover {
