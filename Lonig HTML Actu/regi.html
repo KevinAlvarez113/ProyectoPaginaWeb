@@ -46,14 +46,16 @@
  <div class="Fondo">   </div> 
 
   <section class="form-register">
+    <form action="REGI.php" method="POST">
     <h4>Registrarse</h4>
-    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
-    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-    <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
+    <input class="controls" pattern="[a-zA-Z]+" required type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls" pattern="[a-zA-Z]+" required type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <input class="controls" required type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <input class="controls" required type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
     <p>Estoy de acuerdo con <a href="#">Términos y Condiciones</a></p>
     <input class="botons" type="submit" value="Registrar">
     <p><a href="ini.html">Ya tengo Cuenta</a></p>
+    </form>
   </section>
 
    <footer>
