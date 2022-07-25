@@ -1,6 +1,6 @@
 
 div.active {
-  background-color: #333;
+  background-color: #333333;
   overflow: auto;
   white-space: nowrap;
 }
@@ -32,7 +32,7 @@ body {
   box-sizing: border-box;
   padding: 20px 30px;
   font-family: 'calibri';
-  border-top: 4px solid rgb(144, 76, 175);
+  border-top: 4px solid #904caf;
   color: white;
 }
 
@@ -84,7 +84,7 @@ body {
   text-decoration: underline;
 }
 .Fondo{
-  background-color: rgb(190, 190, 190);
+  background-color: #bebebe;
   background-image: url("/IMG/IMGMasProd.jpg");
   background-position: center;
   background-size: cover;
